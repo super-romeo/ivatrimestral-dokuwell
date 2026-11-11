@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Declaração de IVA trimestral preparada a partir das faturas: IVA liquidado e dedutível conferido, pronta a entregar no Portal das Finanças.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -81,38 +85,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">IVA Trimestral</a></div>
-  <nav class="top"><a href="#oque" data-ev="click_nav_oque">O que obtém</a><a href="price.html" data-ev="click_nav_preco">Preço</a><a href="#exemplo" data-ev="click_nav_exemplo">Exemplo</a><a href="#start" data-ev="click_nav_start">Começar</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">IVA Trimestral</a>
+  <nav><a href="#oque" data-ev="click_nav_oque">O que obtém</a><a href="price.html" data-ev="click_nav_preco">Preço</a><a href="#exemplo" data-ev="click_nav_exemplo">Exemplo</a><a href="#start" data-ev="click_nav_start">Começar</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Declaração de IVA trimestral — a declaração periódica preparada a partir das suas faturas</h1>
-    <p class="sub">Para empresas no regime normal de IVA com periodicidade trimestral: carregue as faturas do trimestre e receba a declaração periódica de IVA preparada, com o IVA liquidado e dedutível conferido, pronta a entregar no Portal das Finanças antes do prazo — até ao dia 20 do segundo mês seguinte ao trimestre.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Eu preciso disso</a>
-    <p class="cta-note">Acesso antecipado · Esta página ainda não aceita pagamentos</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Para empresas no regime normal de IVA</p>
+      <h1 class="rise" style="--i:1" data-len="long">Declaração de IVA trimestral&nbsp;<span class="soft">— a declaração periódica preparada a partir das suas faturas</span></h1>
+      <p class="rise" style="--i:2">Para empresas no regime normal de IVA com periodicidade trimestral: carregue as faturas do trimestre e receba a declaração periódica de IVA preparada, com o IVA liquidado e dedutível conferido, pronta a entregar no Portal das Finanças antes do prazo — até ao dia 20 do segundo mês seguinte ao trimestre.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Eu preciso disso</a>
+      <p class="meta rise" style="--i:4">Acesso antecipado · Esta página ainda não aceita pagamentos</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">Declaração</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">Faturas do trimestre</text><rect x="130" y="360" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="392" font-size="32" fill="#0a1524">IVA liquidado</text><rect x="130" y="460" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="492" font-size="32" fill="#0a1524">trimestral</text><rect x="700" y="260" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="32" fill="#0a1524" font-weight="600">Finanças</text><rect x="740" y="500" width="50" height="100" rx="8" fill="#ffffff" /><rect x="815" y="440" width="50" height="160" rx="8" fill="#b9c3d2" /><rect x="890" y="520" width="50" height="80" rx="8" fill="#12397a" /><rect x="965" y="460" width="50" height="140" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Para</dt><dd>Empresas no regime normal</dd></div>
+      <div><dt>Prepara</dt><dd>Declaração periódica de IVA</dd></div>
+      <div><dt>Como</dt><dd>A partir das faturas</dd></div>
+      <div><dt>Acesso</dt><dd>Acesso antecipado</dd></div>
+    </dl>
+  </section>
 
   <section id="oque" data-view="features_view">
-    <h2>O que obtém</h2>
-    <div class="grid">
-      <div class="card"><b>Faturas do trimestre</b><span>Faturas emitidas e recebidas reunidas por trimestre.</span><br><a class="btn" href="price.html" data-ev="feature_faturas">Eu preciso disso</a></div>
-      <div class="card"><b>Conferência</b><span>IVA liquidado e dedutível conferido com os documentos.</span><br><a class="btn" href="price.html" data-ev="feature_conferencia">Eu preciso disso</a></div>
-      <div class="card"><b>Declaração</b><span>Declaração periódica preparada para o Portal das Finanças.</span><br><a class="btn" href="price.html" data-ev="feature_declaracao">Eu preciso disso</a></div>
-      <div class="card"><b>Prazos</b><span>Lembrete antes de cada prazo trimestral.</span><br><a class="btn" href="price.html" data-ev="feature_prazos">Eu preciso disso</a></div>
+    <div class="stack"><h2>O que obtém</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Faturas do trimestre</text><text x="120" y="490" font-size="30" fill="#566174">por trimestre</text><rect x="130" y="200" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="210" width="300" height="22" rx="8" fill="#dde2ea" /><polyline points="140,224 150,234 164,214" fill="none" stroke="#12397a" stroke-width="4" /><rect x="130" y="280" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="290" width="240" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="360" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="370" width="340" height="22" rx="8" fill="#dde2ea" /><polyline points="140,384 150,394 164,374" fill="none" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Faturas do trimestre</h3><p>Faturas emitidas e recebidas reunidas por trimestre.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_faturas">Eu preciso disso</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Conferência</text><text x="120" y="490" font-size="30" fill="#566174">IVA dedutível</text><rect x="120" y="200" width="230" height="250" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="450" y="200" width="230" height="250" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polygon points="365,300 430,330 365,360" fill="#12397a" /><rect x="150" y="240" width="160" height="16" rx="8" fill="#dde2ea" /><rect x="150" y="288" width="130" height="16" rx="8" fill="#dde2ea" /><rect x="150" y="336" width="150" height="16" rx="8" fill="#dde2ea" /><rect x="480" y="240" width="160" height="16" rx="8" fill="#dde2ea" /><rect x="480" y="288" width="130" height="16" rx="8" fill="#dde2ea" /><rect x="480" y="336" width="150" height="16" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Conferência</h3><p>IVA liquidado e dedutível conferido com os documentos.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_conferencia">Eu preciso disso</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Declaração</text><text x="120" y="490" font-size="30" fill="#566174">Portal das Finanças</text><rect x="140" y="190" width="420" height="270" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="220" width="320" height="16" rx="8" fill="#dde2ea" /><rect x="170" y="268" width="260" height="16" rx="8" fill="#dde2ea" /><rect x="170" y="316" width="300" height="16" rx="8" fill="#dde2ea" /><rect x="170" y="364" width="180" height="16" rx="8" fill="#dde2ea" /><circle cx="500" cy="400" r="36" fill="#dfe8f7" /><polyline points="484,400 496,414 520,382" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Declaração</h3><p>Declaração periódica preparada para o Portal das Finanças.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_declaracao">Eu preciso disso</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Prazos</text><text x="120" y="490" font-size="30" fill="#566174">prazo trimestral</text><rect x="150" y="200" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="200" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="200" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="200" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="280" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="280" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="280" width="100" height="60" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="280" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Prazos</h3><p>Lembrete antes de cada prazo trimestral.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_prazos">Eu preciso disso</a>
+      </article>
     </div>
   </section>
 
-  <section id="exemplo" data-view="example_view">
-    <h2>Exemplo (dados fictícios)</h2>
-    <p class="fine">Empresa de serviços com 120 faturas emitidas e 80 recebidas no trimestre. As faturas são carregadas; a conferência mostra 3 faturas de fornecedor com IVA que não deve ser deduzido e 1 fatura emitida em falta. Depois das correções, a declaração periódica fica pronta com o valor a pagar.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Escolha o plano</a>
+  <section id="exemplo" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Exemplo</h2>
+      <p>Empresa de serviços com 120 faturas emitidas e 80 recebidas no trimestre. As faturas são carregadas; a conferência mostra 3 faturas de fornecedor com IVA que não deve ser deduzido e 1 fatura emitida em falta. Depois das correções, a declaração periódica fica pronta com o valor a pagar.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Escolha o plano</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">trimestre</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">conferência</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">correções</text><rect x="140" y="300" width="920" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="180" y="380" font-size="36" fill="#0a1524" font-weight="600">declaração periódica</text><rect x="180" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="280" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="380" y="430" width="70" height="70" rx="12" fill="#12397a" /><rect x="480" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><text x="180" y="620" font-size="32" fill="#566174">valor a pagar</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Como se prepara a declaração periódica de IVA trimestral</h2>
-    <p>Uma empresa no regime normal de IVA com periodicidade trimestral entrega a declaração periódica todos os trimestres. O Portal das Finanças recebe a declaração, mas não a prepara a partir dos livros da empresa nem confere as faturas. IVA Trimestral prepara-a a partir das faturas que já tem.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Como se prepara a declaração periódica de IVA trimestral</h2></div>
+    <div class="stack">
+      <p>Uma empresa no regime normal de IVA com periodicidade trimestral entrega a declaração periódica todos os trimestres. O Portal das Finanças recebe a declaração, mas não a prepara a partir dos livros da empresa nem confere as faturas. IVA Trimestral prepara-a a partir das faturas que já tem.</p>
     <p>Os prazos são fixos: a declaração periódica de IVA trimestral entrega-se até ao dia 20 do segundo mês seguinte ao trimestre e o imposto paga-se até ao dia 25 desse mês (artigo 41.º do Código do IVA). Se o dia calhar num fim de semana ou feriado, o prazo passa para o primeiro dia útil seguinte. As datas e as respostas às dúvidas mais comuns estão nas <a href="#faq" data-ev="click_opis_faq">perguntas frequentes</a>; para começar, indique quantas faturas tem por trimestre <a href="#start" data-ev="click_opis_start">no fim da página</a>.</p>
     <p>Carrega as faturas emitidas e recebidas do trimestre, em ficheiro ou fotografia, e os registos que já tem. As faturas são organizadas por trimestre, por tipo de operação e por taxa de IVA.</p>
     <p>Cada fatura é conferida: o IVA liquidado nas vendas e o IVA das compras que entra como dedutível. Faturas com dados incompletos, IVA que levanta dúvidas ou documentos em falta ficam assinalados antes da declaração, para que os possa corrigir a tempo.</p>
@@ -125,39 +159,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>As faturas podem chegar ao longo do trimestre: carrega-as quando as recebe e o serviço vai mostrando o IVA acumulado, para que saiba antecipadamente quanto vai pagar no fim do trimestre e possa preparar a tesouraria. No fim do trimestre fica apenas a revisão final, que normalmente demora poucos minutos e pode ser feita no telemóvel.</p>
     <p>Se uma fatura chega depois de entregue a declaração, o serviço indica em que trimestre deve ser considerada e guarda a nota para a declaração seguinte. O histórico mostra, para cada trimestre, que faturas entraram e com que valores, o que facilita responder a qualquer pedido de esclarecimento.</p>
     <p>IVA Trimestral não é a Autoridade Tributária nem um gabinete de contabilidade e não dá aconselhamento fiscal. A empresa é responsável pela declaração entregue.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Perguntas frequentes</h2>
-    <h3>Qual é o prazo de entrega da declaração periódica de IVA trimestral?</h3>
-    <p>Até ao dia 20 do segundo mês seguinte ao trimestre — por exemplo, a do 1.º trimestre até 20 de maio; a do 2.º trimestre tem prazo prolongado até 20 de setembro. O pagamento faz-se até ao dia 25 desse mês (artigo 41.º do Código do IVA). Se a data calhar num fim de semana ou feriado, passa para o primeiro dia útil seguinte.</p>
-    <h3>Quem entrega a declaração periódica de IVA trimestral?</h3>
-    <p>As empresas no regime normal de IVA que no ano civil anterior tiveram um volume de negócios inferior a 650 000 euros, salvo se optaram pela periodicidade mensal.</p>
-    <h3>Como se preenche a declaração periódica de IVA?</h3>
-    <p>Com o IVA liquidado nas vendas e o IVA dedutível das compras do trimestre, por taxa. O serviço prepara estes valores a partir das faturas conferidas; a entrega faz-se no Portal das Finanças pela empresa ou pelo seu contabilista.</p>
-    <h3>O que acontece se a declaração for entregue fora do prazo?</h3>
-    <p>A entrega fora do prazo pode dar lugar a coima nos termos do artigo 116.º do Regime Geral das Infrações Tributárias. Por isso o serviço envia um lembrete antes de cada prazo trimestral.</p>
-    <h3>Que documentos são precisos?</h3>
-    <p>As faturas emitidas e recebidas do trimestre, em ficheiro ou fotografia, e os registos que já tem.</p>
-    <h3>Já posso usar?</h3>
-    <p>Ainda não. O serviço está em preparação e estamos a verificar se as empresas precisam dele.</p>
+    <div class="stack"><h2>Perguntas frequentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Qual é o prazo de entrega da declaração periódica de IVA trimestral?</h3><p>Até ao dia 20 do segundo mês seguinte ao trimestre — por exemplo, a do 1.º trimestre até 20 de maio; a do 2.º trimestre tem prazo prolongado até 20 de setembro. O pagamento faz-se até ao dia 25 desse mês (artigo 41.º do Código do IVA). Se a data calhar num fim de semana ou feriado, passa para o primeiro dia útil seguinte.</p></div>
+      <div class="split flip"><h3>Quem entrega a declaração periódica de IVA trimestral?</h3><p>As empresas no regime normal de IVA que no ano civil anterior tiveram um volume de negócios inferior a 650 000 euros, salvo se optaram pela periodicidade mensal.</p></div>
+      <div class="split flip"><h3>Como se preenche a declaração periódica de IVA?</h3><p>Com o IVA liquidado nas vendas e o IVA dedutível das compras do trimestre, por taxa. O serviço prepara estes valores a partir das faturas conferidas; a entrega faz-se no Portal das Finanças pela empresa ou pelo seu contabilista.</p></div>
+      <div class="split flip"><h3>O que acontece se a declaração for entregue fora do prazo?</h3><p>A entrega fora do prazo pode dar lugar a coima nos termos do artigo 116.º do Regime Geral das Infrações Tributárias. Por isso o serviço envia um lembrete antes de cada prazo trimestral.</p></div>
+      <div class="split flip"><h3>Que documentos são precisos?</h3><p>As faturas emitidas e recebidas do trimestre, em ficheiro ou fotografia, e os registos que já tem.</p></div>
+      <div class="split flip"><h3>Já posso usar?</h3><p>Ainda não. O serviço está em preparação e estamos a verificar se as empresas precisam dele.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
   <section id="stati">
-    <h2>Guias</h2>
-    <ul>
+    <div class="stack">
+      <h2>Guias</h2>
+      <ul>
       <li><a href="prazos-iva-trimestral.html" data-ev="click_page_prazos_iva_trimestral">Prazos do IVA trimestral</a> — datas de entrega e de pagamento de cada trimestre</li>
     </ul>
+    </div>
   </section>
-  <section id="start" data-view="start_view">
-    <h2>Comece pelo trimestre atual</h2>
-    <p><label>Faturas por trimestre<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— escolha —</option><option>Até 50</option><option>51–200</option><option>201–500</option><option>Mais de 500</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Começar</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Comece pelo trimestre atual</h2>
+    </div>
+    <div class="tile stack">
+      <label>Faturas por trimestre<select data-ev-focus="form_start"><option value="">— escolha —</option><option>Até 50</option><option>51–200</option><option>201–500</option><option>Mais de 500</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Começar</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>IVA Trimestral</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacidade</a></p>
-  <p class="muted">Não é a Autoridade Tributária nem um gabinete de contabilidade; sem aconselhamento fiscal. A empresa é responsável pela declaração.</p>
+  <p>Não é a Autoridade Tributária nem um gabinete de contabilidade; sem aconselhamento fiscal. A empresa é responsável pela declaração.</p>
 </div></footer>
 
 </body>
